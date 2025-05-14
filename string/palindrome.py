@@ -3,7 +3,7 @@ def is_palindrome(string):
     string = string.lower().replace(" ", "")  # Convert to lowercase and remove spaces
     return string == string[::-1]
 
-# Example usage
+# Example usage testing
 if __name__ == "__main__":
     user_input = input("Enter a string: ")
     if is_palindrome(user_input):
